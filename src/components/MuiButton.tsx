@@ -1,4 +1,4 @@
-import { Stack, Button, IconButton } from "@mui/material";
+import { Stack, Button, IconButton, ButtonGroup } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
 
 export const MuiButton = () => {
@@ -54,7 +54,8 @@ export const MuiButton = () => {
       <Stack spacing={2} direction="row">
         {/*iconnern enq ogtagorcum,  */}
         {/*iconan gtel em  doc-i components, material icons-ic */}
-        <Button variant="contained" startIcon={<SendIcon />} disableRipple >{/*disableRipple-ov onClicki animaciana hanum */}
+        <Button variant="contained" startIcon={<SendIcon />} disableRipple>
+          {/*disableRipple-ov onClicki animaciana hanum */}
           start
         </Button>
         {/*startIcon aysinqn textic araj */}
@@ -68,6 +69,16 @@ export const MuiButton = () => {
           {/*aria-label='send' ov yani disable-i tesqa yndunum */}
           <SendIcon />
         </IconButton>
+      </Stack>
+      <Stack direction="row">
+        <ButtonGroup variant="contained" orientation="vertical" aria-label='alignment button group'>
+          {/*ete uzum enq vor mi qani knopka irar kpac exni sirun, senc enq anum*/}
+          {/*orientatinov asum enq vor knopkeqy irar tak exnen */}
+          {/*karanq tanq sovorakan buttoni bolor stylery ste vor verabervi saxin, baci onCLickic */}
+          <Button>Left</Button>
+          <Button>Center</Button>
+          <Button>Right</Button>
+        </ButtonGroup>
       </Stack>
     </Stack>
   );

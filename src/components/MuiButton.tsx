@@ -113,7 +113,7 @@ export const MuiButton = () => {
           size="small"
           color="error"
           orientation="vertical"
-          exclusive//exclusiv aysinqn vor meky yntres mnacacy disable exnen voch te 2 ban yntres
+           exclusive//exclusiv aysinqn vor meky yntres mnacacy disable exnen voch te 2 ban yntres
         >
           <ToggleButton value="bold" aria-label="bold">
             <FormatBoldIcon />

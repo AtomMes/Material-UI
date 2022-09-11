@@ -13,9 +13,6 @@ export const MuiRating = () => {
     setValue(newValue);
   };
 
-  const clearRate = () => {
-    setValue(null);
-  };
 
   return (
     <Stack spacing={2}>

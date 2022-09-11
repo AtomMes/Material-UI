@@ -23,6 +23,7 @@ function App() {
       {/* <MuiRating /> */}
       {/* <MuiAutocomplete /> */}
       <MuiLayout />
+      
     </div>
   );
 }

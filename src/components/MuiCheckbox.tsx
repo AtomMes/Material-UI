@@ -2,6 +2,7 @@ import {
   Box,
   FormControlLabel,
   Checkbox,
+  Switch,
   FormControl,
   FormLabel,
   FormGroup,
@@ -20,7 +21,7 @@ export const MuiCheckbox = () => {
 
   const handleSkillChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const index = skills.indexOf(e.target.value)
-    console.log(index)
+
     if(index === -1){
         setSkills([...skills, e.target.value])
     }else{
@@ -57,6 +58,8 @@ export const MuiCheckbox = () => {
                   value="html"
                   checked={skills.includes("html")}
                   onChange={handleSkillChange}
+                  icon={<BookMarkBorderIcon />} 
+                  checkedIcon={<BookMark />} 
                 />
               }
             />
@@ -67,6 +70,8 @@ export const MuiCheckbox = () => {
                   value="css"
                   checked={skills.includes("css")}
                   onChange={handleSkillChange}
+                  icon={<BookMarkBorderIcon />} 
+                  checkedIcon={<BookMark />} 
                 />
               }
             />
@@ -77,6 +82,8 @@ export const MuiCheckbox = () => {
                   value="js"
                   checked={skills.includes("js")}
                   onChange={handleSkillChange}
+                  icon={<BookMarkBorderIcon />} 
+                  checkedIcon={<BookMark />} 
                 />
               }
             />

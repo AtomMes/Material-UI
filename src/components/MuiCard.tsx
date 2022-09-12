@@ -14,8 +14,8 @@ export const MuiCard = () => {
       <Card>{/*paperi nman bana, cartochkaya sarqum */}
         <CardMedia //cartMediana, nkary eli
           component="img"
-          height="140"
-          image='https://pixabay.com/images/search/nature/'//petqa nkar drver chi exnum heto knayem xi
+          height="300"
+          image='https://cdn.shopify.com/s/files/1/0568/0286/9411/products/HelloGoodTimes_530x@2x.jpg?v=1623756600'//nkar
           alt="image"
         />
         <CardContent>{/*contentna, meji gracnery ev ayln */}
